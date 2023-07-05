@@ -1,0 +1,52 @@
+<aditionals>
+    #kiskör
+    <rerouter id="rerouter_0" edges="E65" probability="1">
+        <interval begin="0" end="10000">
+            <destProbReroute id="-E35" removeTime="2"/>
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_1" edges="-E35" probability="1">
+        <interval begin="0" end="10000">
+            <destProbReroute id="E65" />
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_2" edges="-E38" probability="1">
+        <interval begin="0" end="10000">
+            <destProbReroute id="-E30" />
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_3" edges="-E30" probability="1">
+        <interval begin="0" end="10000">
+            <destProbReroute id="-E38" />
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_4" edges="E25" probability="1">
+        <interval begin="0" end="10000">
+            <destProbReroute id="-E55" />
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_5" edges="-E55" probability="1">
+        <interval begin="0" end="10000">
+            <destProbReroute id="E25"/>
+        </interval>
+    </rerouter>
+
+    #Kivezetés
+    <rerouter id="rerouter_7" edges="E39" probability="0.1">
+        <interval begin="300" end="10000">
+            <destProbReroute id="E0"/>
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_8" edges="-E49" probability="0.1">
+        <interval begin="300" end="10000">
+            <destProbReroute id="E0"/>
+        </interval>
+    </rerouter>
+
+</aditionals>

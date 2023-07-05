@@ -1,0 +1,11 @@
+<configuration >
+    <input>
+        <net-file value="OnLab_Hazak.net.xml"/>
+        <route-files value="OnLab_Hazak.rou.xml"/>
+        <additional-files value="OnLab_Hazak.add.xml"/>
+    </input>
+
+     <time>
+        <begin value="0"/>
+    </time>
+</configuration>
